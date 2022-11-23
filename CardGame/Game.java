@@ -39,6 +39,7 @@ public class Game{
             String s = suits[i];
             System.out.println("The "+(i+1)+" random card is："+ s+ i1);//Output the random card.
         }
+
         //Generate the place of all card and store the place to the array that named all
         permutations(nums, 0, nums.length);       
         for (int i = 0; i < all.length; i++){
